@@ -5,7 +5,7 @@ This quickstart shows a simple Apache Camel application that logs a message to t
 This example is implemented using solely the XML DSL (there is no Java code). The source code is provided in the following XML file `src/main/resources/OSGI-INF/blueprint/camel-log.xml`.
 It also shows how Karaf assembly files can be overridden using resources from `src/main/resources/assembly/`. The included sample log file `etc/org.ops4j.pax.logging.cfg` sets the log level to DEBUG.
 
-IMPORTANT: This quickstart can run in 1 mode: on Kubernetes / OpenShift Cluster
+IMPORTANT: This quickstart can run in 1 mode: on Kubernetes / OpenShift Cluster. Quickstart requires Java 8 or Java 11 (`fuse-karaf-openshift-jdk11-rhel8` image is used to build in Java 11)
 
 == Running the Quickstart on a single-node Kubernetes/OpenShift cluster
 
